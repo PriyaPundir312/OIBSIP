@@ -1,0 +1,113 @@
+ @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&family=Playfair+Display:ital,wght@0,400;0,500;0,800;1,700&family=Poppins:wght@200;500;700&family=Raleway:wght@300;500&display=swap');
+
+*{
+    padding: 0;
+    margin: 10px;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* section first */
+.nav{
+    background-color: rgb(203, 203, 77);
+    height: 45vh;
+  
+}
+.nav h1{
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 50px;
+    font-size: 45px;
+  
+}
+.nav p{
+    text-align: center;
+}
+.nav button{
+margin: 10px  0px 0px 85vh ;
+}
+
+/* section second */
+.mainubar{
+    display: grid;
+    grid-template-columns: 650px 600px;
+    gap: 20px; 
+    
+}
+.boxa{
+    height: 50vh;
+    margin-left: 200px;
+    background-image: url('img/VPN1.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.boxb{
+    height: 50vh;
+    margin-right: 180px; 
+   
+}
+.boxc{
+    height: 50vh;
+    margin-left: 200px;
+}
+.boxd{
+ height: 50vh;
+ margin-right: 180px;  
+ background-size: cover;
+ background-image: url('img/VPN2.jpeg');
+ background-repeat: no-repeat;
+}
+h2{
+    font-size: 35px; margin-top: 50px;
+}
+.btn{
+    border-radius: 40px;
+    background-color: green;
+    width: 25vh;
+    height: 8vh;
+    color: white;
+    font-size: 18px;
+    outline: none;
+    border: none;
+}
+/* section third */
+.frame{
+    display: flex;
+    height: 50vh;
+    justify-content: center;
+}
+.item{
+    height: 30vh;
+    width: 50vh;
+    
+}
+.item img{
+    height:20vh;
+    width: 30vh;
+    border-radius: 60px;
+    margin-left: 70px;
+}
+h3{
+    text-align: center;
+    font-size: 20px;
+}
+/* section fourth*/
+.footer{
+
+    background-color: yellowgreen;
+    height: 50vh;
+    margin: 10px 10px ;
+}
+.footer h1{
+font-size: 50px;
+text-align: center;
+padding-top:60px ;
+font-family: 'Open Sans', sans-serif;
+}
+.footer a{
+    display: flex;
+    justify-content: center;
+    padding-top: 10rem;
+    color: rgb(213, 9, 77);
+}
